@@ -137,7 +137,7 @@ static void driver_exit (void)
 	// (b)
 	unregister_chrdev_region(dev_num, 1);
 	
-	printk(KERN_ALERT "soliduscode: unload moduel");
+	printk(KERN_ALERT "soliduscode: unload module");
 }
 
 module_init(driver_entry);
